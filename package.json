@@ -1,0 +1,38 @@
+{
+  "name": "interavatar",
+  "version": "0.0.0",
+  "description": "Inter Planetary Recognised Avatar",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "standard"
+  },
+  "keywords": [
+    "avatar",
+    "image",
+    "distributed",
+    "decentralized"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^17.2.3",
+    "hapi-pino": "^4.0.4",
+    "inert": "^5.1.0",
+    "ipfs-api": "^19.0.0",
+    "joi": "^13.1.2",
+    "multiaddr-to-uri": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableflip/interavatar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tableflip/interavatar/issues"
+  },
+  "homepage": "https://github.com/tableflip/interavatar#readme"
+}
